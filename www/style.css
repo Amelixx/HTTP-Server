@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+    margin:0px;
+    padding:0px;
+}
+
+html, body {
+    background-color: black;
+}
+
+h1 {
+    color: #c9c9c9;
+    font-size: 150px;
+}
+
+a, p {
+    display: inline;
+    text-decoration: none;
+}
+
+a:link {
+    font-size: 30px;
+    color: #551A79;
+}
+
+/* a:visited {
+    color: #2b2b2b;
+} */
+
+a:hover {
+    color: #9038c7;
+}
+
+a:active {
+    color: #b654f3;
+}
+
+.subtitle {
+    font-size: 40px;
+    color: royalblue;
+}
+
+.shutup {
+    width: 768px;
+    display: block; 
+    font-size: 15px; 
+    color: red; 
+    font-style: italic; 
+    text-align: center;
+}
+
+#textContainer {
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+#title {
+    font-size: 100px;
+}
+
+@media only screen and (max-width: 768px) {
+    #title {
+        font-size: 93px;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    #title {
+        font-size: 48px;
+    }
+    
+    .shutup {
+        width: 100%
+    }
+}
+
+#rubix-pfp {
+    border-radius: 50%;
+}
+
+#rubix-pfp:hover {
+    background: linear-gradient(#501f1f50, #501f1f50, url("Images/Rubix.gif"));
+}
+
+video {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    max-height: 60%;
+    max-width: 60%;
+    margin: auto;
+}

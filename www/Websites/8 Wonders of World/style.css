@@ -1,0 +1,124 @@
+h1 {
+  font-family: sans-serif;
+  font-size: 350%;
+  color: #0263c4;
+  background-color: #363636;
+  width: 100%;
+  text-align: center;
+  align-content: center;
+  box-align: center;
+}
+
+body {
+  background-color: #a9aaab;
+  padding:0;
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+  align-content: center;
+}
+
+li a {
+  display: block;
+  text-align: center;
+  padding: 70px 70px;
+  text-decoration: none;
+}
+
+li a:hover {
+  opacity: 0.6;
+  background-image: url('http://www.dacorum.gov.uk/images/default-source/environmental-services/grey-wheeled-bin.jpg?sfvrsn=0');
+  transition: all 0.3s ease;
+}
+
+.detail-image {
+  align-content: left;
+  display: block;
+  padding: 20px;
+  width: 600px;
+  height: 500px;
+}
+
+.image-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.title-bar {
+  background-color: #4f4f4f;
+}
+
+.home-bar {
+  width: 100%;
+  height: 5%;
+  background-color: #4a4a49;
+  position: relative;
+}
+
+.home-bar a {
+  display: inline-block;
+  text-align: center;
+  padding: 2%;
+  width: 5%;
+  margin: 0;
+  background-image: url("https://image.flaticon.com/icons/png/512/39/39220.png");
+  background-size: 85px 80px;
+  object-fit: cover;
+  background-repeat: no-repeat;
+}
+
+.home-bar p {
+  width: 90%;
+  display: inline-block;
+}
+
+div.forms {
+  outline: 5px #f2f;
+  border: 1px #333;
+  padding-bottom: 50px
+}
+
+
+
+.text {
+  text-align: center;
+  padding: 2%
+}
+
+.coolRainbowStuff {
+  background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+  background-image: gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+  color:transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+  padding: 0;
+  margin: 0;
+  background-color: #4a4a49;
+  text-align: center;
+  box-align: center;
+}
+
+.coolTitleStuff {
+  background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #d3952a), color-stop(0.3, #403d39), color-stop(0.45, #ed9907), color-stop(0.6, #b87809),color-stop(0.75, #403d39), color-stop(0.9, #d3952a), color-stop(1, #f22) );
+  background-image: gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+  color:transparent;
+  -webkit-background-clip: text;
+  padding-top: 20px;
+  margin: 0;
+  position: relative;
+}
